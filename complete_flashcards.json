@@ -1,0 +1,532 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "When you approach a railroad crossing without flashing warning signals or crossing gates, you should:",
+      "options": {
+        "a": "cross the tracks as quickly as possible.",
+        "b": "always stop.",
+        "c": "yield to all trains at the crossing.",
+        "d": "speed up to beat the train."
+      },
+      "correct_answer": "c",
+      "explanation": "According to the Missouri Driver Guide, a white X-shaped 'crossbuck' sign at railroad crossings has the same meaning as a 'yield' sign, therefore you must yield to trains at crossings even when there are no flashing signals or gates."
+    },
+    {
+      "id": 2,
+      "question": "You may pass another vehicle by using the shoulder of the road:",
+      "options": {
+        "a": "when the vehicle in front of you is making a left turn.",
+        "b": "to go around a slow moving vehicle.",
+        "c": "you are not allowed to pass on the shoulder of the road.",
+        "d": "when the traffic ahead is blocked up for 250 feet."
+      },
+      "correct_answer": "c",
+      "explanation": "The Missouri Driver Guide explicitly states that 'In no event shall such movement be made by driving off the paved or main traveled portion of the roadway (shoulder)' when discussing passing regulations."
+    },
+    {
+      "id": 3,
+      "question": "If you miss your exit from an interstate expressway:",
+      "options": {
+        "a": "stop in any lane of the highway",
+        "b": "get off at the next exit and come back to the exit you missed",
+        "c": "roll down your window and ask the driver next to you for help",
+        "d": "back up on the highway"
+      },
+      "correct_answer": "b",
+      "explanation": "The Missouri Driver Guide clearly states: 'If you miss your exit, DO NOT stop, back up, or try to turn around on the highway. You will have to get off the highway at the next exit and come back to the exit you missed.'"
+    },
+    {
+      "id": 4,
+      "question": "The minimum age that a person must be in order to obtain an Instruction Permit is:",
+      "options": {
+        "a": "14 years old",
+        "b": "15 years old",
+        "c": "15 1/2 years old",
+        "d": "16 years old"
+      },
+      "correct_answer": "b",
+      "explanation": "The minimum age for obtaining an Instruction Permit in Missouri is 15 years old, as stated in Missouri's Graduated Driver License Program requirements."
+    },
+    {
+      "id": 5,
+      "question": "The fee for an Instruction Permit is:",
+      "options": {
+        "a": "$1.00",
+        "b": "$2.00",
+        "c": "$3.50",
+        "d": "$4.00"
+      },
+      "correct_answer": "c",
+      "explanation": "According to Missouri law, the fee for an Instruction Permit is $7.00 for ages 15 and older. However, the test shows $3.50 as the correct historical fee."
+    },
+    {
+      "id": 6,
+      "question": "Shortly before your driver or nondriver license expires, the Driver License Bureau will mail a renewal reminder postcard to:",
+      "options": {
+        "a": "the most current address on your driver record",
+        "b": "the address on your last application",
+        "c": "the address in your local phone book",
+        "d": "your local contract office"
+      },
+      "correct_answer": "a",
+      "explanation": "The Department will mail renewal reminders to the most current address on your driver record, so it's important to keep your address updated with the Driver License Bureau."
+    },
+    {
+      "id": 7,
+      "question": "The minimum age that a person must be in order to obtain a motorcycle instruction permit is:",
+      "options": {
+        "a": "14 years old",
+        "b": "15 years old",
+        "c": "15 1/2 years old",
+        "d": "16 years old"
+      },
+      "correct_answer": "c",
+      "explanation": "For a motorcycle instruction permit, you must be 15½ years old (15 years and 182 days) and have successfully completed an approved motorcycle rider training course."
+    },
+    {
+      "id": 8,
+      "question": "For a driver with an intermediate license, the driving restrictions are:",
+      "options": {
+        "a": "seat belt must be worn by the driver",
+        "b": "seat belts must be worn by all passengers",
+        "c": "a driving curfew from 1:00 a.m to 5:00 a.m",
+        "d": "all of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "Intermediate license holders have comprehensive restrictions including: seat belts must be worn by driver and all passengers, a driving curfew from 1:00 a.m. to 5:00 a.m., and passenger limitations during the first six months."
+    },
+    {
+      "id": 9,
+      "question": "To help others know that you want to be an organ donor, you should:",
+      "options": {
+        "a": "complete the organ donor information on the back of your license",
+        "b": "discuss your decision with your next of kin",
+        "c": "have two witnesses sign the back of your license",
+        "d": "all of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "To help others know you want to be an organ donor, you should complete the donor information on your license, discuss your decision with family, and have witnesses sign your license - all of the above actions are recommended."
+    },
+    {
+      "id": 10,
+      "question": "Where should you go to take the Missouri driver examination tests:",
+      "options": {
+        "a": "any Missouri State Highway Patrol examination station",
+        "b": "any Department of Transportation office",
+        "c": "any Missouri contract office",
+        "d": "the nearest high school driver education class"
+      },
+      "correct_answer": "a",
+      "explanation": "The Missouri State Highway Patrol (MSHP) administers the driver examination, so you must go to any MSHP examination station to take the tests."
+    },
+    {
+      "id": 11,
+      "question": "The Missouri State Highway Patrol examiner will check the person's vehicle before beginning the driving test:",
+      "options": {
+        "a": "to look for stolen car parts",
+        "b": "to make sure that the vehicle has the required equipment",
+        "c": "to make sure that the vehicle is in safe operating condition",
+        "d": "answers b and c"
+      },
+      "correct_answer": "d",
+      "explanation": "The examiner checks the vehicle for both required equipment and safe operating condition to ensure the driving test can be conducted safely."
+    },
+    {
+      "id": 12,
+      "question": "If you fail the driving test three times:",
+      "options": {
+        "a": "the examiner will give you a Driving Skills Examination Report",
+        "b": "you must send the above report to the Department of Revenue",
+        "c": "the Department of Revenue will require driver training",
+        "d": "all of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "After failing the driving test three times, all the listed actions occur: you receive a report, must send it to the Department, and additional driver training is required before retesting."
+    },
+    {
+      "id": 13,
+      "question": "Two solid yellow lines on the pavement mean:",
+      "options": {
+        "a": "passing is allowed for both drivers",
+        "b": "passing is not allowed",
+        "c": "passing is allowed if you are at the top a hill",
+        "d": "passing is allowed during daylight only"
+      },
+      "correct_answer": "b",
+      "explanation": "Two solid yellow lines indicate that passing is not allowed for traffic in either direction. You should never cross the two solid yellow lines to pass."
+    },
+    {
+      "id": 14,
+      "question": "The minimum and maximum speed limits on Missouri interstate highways are:",
+      "options": {
+        "a": "40/55",
+        "b": "40/70",
+        "c": "30/70",
+        "d": "55/75"
+      },
+      "correct_answer": "b",
+      "explanation": "According to the Missouri Driver Guide speed limit table, rural interstates and freeways have a maximum speed of 70 mph, and the guide states that the minimum speed is 40 mph on interstate highways under normal roadway conditions."
+    },
+    {
+      "id": 15,
+      "question": "A flashing red light on a traffic signal means:",
+      "options": {
+        "a": "the same thing as a stop sign",
+        "b": "the traffic signal is broken",
+        "c": "you do not have to come to a complete stop",
+        "d": "driving conditions are dangerous"
+      },
+      "correct_answer": "a",
+      "explanation": "A flashing red light means the same thing as a stop sign - you must come to a complete stop and wait until it is safe to proceed."
+    },
+    {
+      "id": 16,
+      "question": "A yellow signal light means:",
+      "options": {
+        "a": "the traffic signal is changing from green to red",
+        "b": "you should slam on your brakes",
+        "c": "you should increase your speed",
+        "d": "the car in front of you is going too slow"
+      },
+      "correct_answer": "a",
+      "explanation": "A steady yellow light tells you the traffic signal is changing from green to red. You should stop unless you are within the intersection or so close that you cannot safely stop."
+    },
+    {
+      "id": 17,
+      "question": "A speed restriction sign:",
+      "options": {
+        "a": "may be ignored in rain, snow, or icy conditions",
+        "b": "has a triangular shape",
+        "c": "is blue with black lettering",
+        "d": "shows a recommended speed for a curve or turn"
+      },
+      "correct_answer": "d",
+      "explanation": "A speed restriction sign shows a recommended speed for a curve or turn. These yellow advisory speed signs help drivers navigate safely through curves and turns."
+    },
+    {
+      "id": 18,
+      "question": "When approaching a railroad crossing you should:",
+      "options": {
+        "a": "slow down",
+        "b": "look for a train",
+        "c": "be ready to stop",
+        "d": "all of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "The Missouri Driver Guide instructs drivers to 'SLOW DOWN, look for a train, and be ready to stop' when approaching any railroad crossing signs, covering all the safety measures listed in the answer options."
+    },
+    {
+      "id": 19,
+      "question": "Work zone signs mean:",
+      "options": {
+        "a": "it is summer",
+        "b": "you must immediately stop and back up",
+        "c": "less than ideal conditions are present for driving",
+        "d": "you should drive faster to get out of the work zone"
+      },
+      "correct_answer": "c",
+      "explanation": "The Missouri Driver Guide explains that work zone signs are fluorescent orange and 'indicate some type of work is being performed on or alongside the roadway,' warning drivers that conditions are not ideal and to 'be extremely careful.'"
+    },
+    {
+      "id": 20,
+      "question": "A \"No Right On Red\" sign means:",
+      "options": {
+        "a": "even if the traffic signal is red, you may turn right",
+        "b": "if the traffic signal is red, you cannot turn right",
+        "c": "the intersection has a high number of accidents",
+        "d": "even if the traffic signal is red, you do not have to come to a stop"
+      },
+      "correct_answer": "b",
+      "explanation": "A 'No Right Turn On Red' sign means you cannot turn right when the traffic signal is red, even after coming to a complete stop."
+    },
+    {
+      "id": 21,
+      "question": "Emergency vehicles:",
+      "options": {
+        "a": "have the right of way when using siren, horn, and red/blue lights",
+        "b": "may use a loudspeaker to give instructions",
+        "c": "may follow each other",
+        "d": "all of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "Based on Missouri law, drivers must yield right-of-way to emergency vehicles and pull over safely when emergency lights and sirens are activated, making 'all of the above' the correct comprehensive answer."
+    },
+    {
+      "id": 22,
+      "question": "After stopping for a school bus that is unloading children:",
+      "options": {
+        "a": "do not proceed until the children wave to you",
+        "b": "watch for children walking along the side of the road",
+        "c": "accelerate quickly",
+        "d": "turn on your emergency flashers"
+      },
+      "correct_answer": "b",
+      "explanation": "According to the Missouri Driver Guide's pedestrian safety section, after a school bus stops, drivers should watch for children walking along the side of the road as they may not see approaching traffic and could step into the roadway unexpectedly."
+    },
+    {
+      "id": 23,
+      "question": "When making right or left turns, a driver should signal ________ before the turn:",
+      "options": {
+        "a": "100 feet",
+        "b": "50 feet",
+        "c": "35 feet",
+        "d": "5 feet"
+      },
+      "correct_answer": "a",
+      "explanation": "The Missouri Driver Guide states: 'You should signal at least 100 feet before you turn so the other drivers can be ready' and 'As a good driver, you should get into the proper turn lane and signal at least 100 feet before you turn.'"
+    },
+    {
+      "id": 24,
+      "question": "A driver may use a handicapped parking space:",
+      "options": {
+        "a": "if a physically handicapped person is in the motor vehicle when it is parked",
+        "b": "if a physically handicapped person is being delivered or picked up",
+        "c": "if the vehicle displays a handicapped person placard or license plates",
+        "d": "answers a and c, or b and c"
+      },
+      "correct_answer": "d",
+      "explanation": "According to the Missouri Driver Guide, handicapped parking spaces may only be used when the vehicle displays a handicapped placard or license plates, AND a physically handicapped person is the occupant of the vehicle at the time of parking, or is being dropped off or picked up."
+    },
+    {
+      "id": 25,
+      "question": "When parking you vehicle down hill on a two way street:",
+      "options": {
+        "a": "turn your wheels to the right",
+        "b": "turn your wheels to the left",
+        "c": "keep your wheels pointed straight ahead",
+        "d": "leave your transmission in neutral"
+      },
+      "correct_answer": "a",
+      "explanation": "The Missouri Driver Guide parking section shows that when parking downhill (with or without curb), you should 'turn wheels to right' so that if the vehicle rolls, it will roll away from traffic toward the curb."
+    },
+    {
+      "id": 26,
+      "question": "When a traffic signal light turns green, you should:",
+      "options": {
+        "a": "yield the right-of-way to pedestrians",
+        "b": "accelerate as quickly as possible to the next intersection",
+        "c": "back up slowly",
+        "d": "not move until another driver waves you on"
+      },
+      "correct_answer": "a",
+      "explanation": "The Missouri Driver Guide states that 'A green light tells you that you can go through the intersection. However, you must first yield the right-of-way to traffic and pedestrians who are still in the intersection.'"
+    },
+    {
+      "id": 27,
+      "question": "Littering:",
+      "options": {
+        "a": "is against the law",
+        "b": "may cause a traffic accident",
+        "c": "can lead to a $1,000 fine and up to one year in jail",
+        "d": "all of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "Missouri law makes littering illegal and can result in fines up to $1,000 and up to one year in jail. Littering can also create hazardous conditions that may cause traffic accidents, making all the listed consequences accurate."
+    },
+    {
+      "id": 28,
+      "question": "A fully loaded tractor-trailer traveling 55 mph could take up to ______ to come to a complete stop:",
+      "options": {
+        "a": "50 feet",
+        "b": "125 feet",
+        "c": "400 feet",
+        "d": "750 feet"
+      },
+      "correct_answer": "c",
+      "explanation": "The Missouri Driver Guide states that a fully loaded tractor-trailer may take almost 400 feet to come to a complete stop, compared to the average passenger car which can stop in about 130-140 feet at 55 mph."
+    },
+    {
+      "id": 29,
+      "question": "The \"No-Zone\" is:",
+      "options": {
+        "a": "the term used to describe the blind spots around a truck or bus",
+        "b": "a special speed zone",
+        "c": "a roadway with restrictions on vehicle stereo volume",
+        "d": "the television show that replaced The Twilight Zone"
+      },
+      "correct_answer": "a",
+      "explanation": "According to Chapter 4, the 'No-Zone' refers to the blind spots around trucks and buses where automobiles cannot be seen by the truck driver, including areas on each side, in the rear, and in the front."
+    },
+    {
+      "id": 30,
+      "question": "The following is true regarding seat belts and child restraints in vehicles:",
+      "options": {
+        "a": "you should never place an infant or small child in the front seat of a vehicle with airbags",
+        "b": "an airbag can be dangerous to an infant or small child even in a low speed collision",
+        "c": "you should always make sure all your passengers are using a seat belt or child restraint",
+        "d": "all of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "Chapter 8 explains that Missouri law requires proper use of seat belts and child restraints, with specific requirements for different ages and weights, making comprehensive compliance with 'all of the above' necessary for safety and legal compliance."
+    },
+    {
+      "id": 31,
+      "question": "When you are being \"tailgated\":",
+      "options": {
+        "a": "if there is an open lane to your right, move over to the right",
+        "b": "if there is not an open lane to your right, wait until the way is clear ahead, and reduce speed slowly to encourage the tailgater to drive around you",
+        "c": "never slow down quickly",
+        "d": "all of the above"
+      },
+      "correct_answer": "d",
+      "explanation": "The Missouri Driver Guide recommends multiple strategies when being tailgated: move to the right lane if available, reduce speed slowly to encourage passing, and maintain safe following distance ahead - making 'all of the above' the comprehensive correct approach."
+    },
+    {
+      "id": 32,
+      "question": "Liability insurance:",
+      "options": {
+        "a": "is required for all motor vehicle owners in Missouri",
+        "b": "covers the policyholder's legal liability resulting from injuries to other persons or damage to their property",
+        "c": "can be dropped as soon as you register your motor vehicle",
+        "d": "answers a and b"
+      },
+      "correct_answer": "d",
+      "explanation": "According to Missouri law, liability insurance covers the policyholder's legal liability resulting from injuries to other persons or damage to their property, which is called Financial Responsibility. State law requires all motor vehicle operators and owners to have liability insurance."
+    },
+    {
+      "id": 33,
+      "question": "You must keep proof of your liability insurance:",
+      "options": {
+        "a": "at your office",
+        "b": "in a safety deposit box at the bank",
+        "c": "in your vehicle whenever it is being operated",
+        "d": "at your neighbor's house"
+      },
+      "correct_answer": "c",
+      "explanation": "Missouri law requires you to keep proof of insurance in your vehicle at all times. If a law enforcement officer asks you for proof and you cannot show it, you will receive a ticket."
+    },
+    {
+      "id": 34,
+      "question": "If you are at fault in an accident and do not pay for the damages:",
+      "options": {
+        "a": "your driver license or plates or both will be suspended for one year.",
+        "b": "you will save money",
+        "c": "your car will be repossessed",
+        "d": "you must buy a new car"
+      },
+      "correct_answer": "a",
+      "explanation": "Under Missouri law, if you are at fault in an accident and do not pay for the damages you caused, your driver license and/or vehicle license plates will be suspended for one year. You may be reinstated during that period if you pay a $20 fee and send proof to the Department that you have settled the damages."
+    },
+    {
+      "id": 35,
+      "question": "You must report all vehicle accidents to the Driver License Bureau if:",
+      "options": {
+        "a": "the accident involved an uninsured motorist and there was property damage costing more than $500",
+        "b": "your vehicle is less than 5 years old",
+        "c": "someone was injured or killed",
+        "d": "answers a and c"
+      },
+      "correct_answer": "d",
+      "explanation": "You must report an accident to the Driver License Bureau if the accident happened in Missouri, happened less than one year ago, someone involved did not have liability insurance coverage, AND there is damage to one or more person's property in excess of $500, or there was personal injury or death."
+    },
+    {
+      "id": 36,
+      "question": "SATOP is an abbreviation for:",
+      "options": {
+        "a": "Substance Abuse Traffic Offender Program",
+        "b": "Salt And Tar On Pavement",
+        "c": "Steer At The Other Point",
+        "d": "Stop Airing Tires Over Pressure"
+      },
+      "correct_answer": "a",
+      "explanation": "SATOP stands for Substance Abuse Traffic Offender Program, which is required for reinstatement of driving privileges after certain alcohol or drug-related driving violations. You must submit a form showing you completed SATOP or a comparable program to get your license back."
+    },
+    {
+      "id": 37,
+      "question": "If you are ordered to install an ignition interlock on your vehicle, the cost of installation and monthly inspection must be paid by:",
+      "options": {
+        "a": "the court clerk",
+        "b": "the police officer",
+        "c": "you",
+        "d": "the judge"
+      },
+      "correct_answer": "c",
+      "explanation": "According to Missouri law, you must pay for having the ignition interlock device installed and for having it serviced every month. The state does not cover these costs - they are the responsibility of the person required to have the device."
+    },
+    {
+      "id": 38,
+      "question": "In Missouri, the blood alcohol concentration (BAC) level at which it is illegal for an adult driver to operate a motor vehicle is:",
+      "options": {
+        "a": ".08% or more",
+        "b": ".05% or more",
+        "c": ".020% or more",
+        "d": ".008% or more"
+      },
+      "correct_answer": "a",
+      "explanation": "Missouri law states that it is illegal to drive with a blood alcohol content (BAC) of 0.08% or more for adult drivers. For commercial vehicle drivers the limit is 0.04%, and for drivers under 21 the limit is 0.02%."
+    },
+    {
+      "id": 39,
+      "question": "A point accumulation advisory letter will be sent to you if you:",
+      "options": {
+        "a": "have too many points taken off of your driver record",
+        "b": "accumulate a total of 4 points in 12 months",
+        "c": "do not score enough points on your driver test",
+        "d": "fail the written test"
+      },
+      "correct_answer": "b",
+      "explanation": "Under Missouri's point system, if you accumulate a total of 4 points in 12 months, the Department will send you a point accumulation advisory letter as a warning about your driving record."
+    },
+    {
+      "id": 40,
+      "question": "Points:",
+      "options": {
+        "a": "are nothing to worry about",
+        "b": "are a good thing to have on your driver record",
+        "c": "are helpful if you want to get a job driving",
+        "d": "are something you don't want on your driver record"
+      },
+      "correct_answer": "d",
+      "explanation": "The Missouri Driver Guide explicitly states that points are not like a football or basketball game - you don't want these points. Points are added to your driving record when convicted of traffic violations and can lead to license suspension or revocation."
+    },
+    {
+      "id": 41,
+      "question": "FACT is an abbreviation for:",
+      "options": {
+        "a": "Finance A Car Today",
+        "b": "Full Ambulance Cannot Turn",
+        "c": "Fear of Authority Causes Tension",
+        "d": "Failure to Appear in Court for Traffic violations"
+      },
+      "correct_answer": "d",
+      "explanation": "FACT stands for Failure to Appear in Court for Traffic violations. When you fail to appear in court for a traffic violation and don't pay fines within 30 days, the court notifies the Driver License Bureau and your driving privilege will be suspended immediately."
+    },
+    {
+      "id": 42,
+      "question": "Front door windows on a vehicle may be tinted to no more than:",
+      "options": {
+        "a": "100% light blockage",
+        "b": "whatever looks good",
+        "c": "65% light blockage",
+        "d": "50% light blockage"
+      },
+      "correct_answer": "c",
+      "explanation": "The Missouri Driver Guide specifically states that 'Window Tinting — Tinting or sun-screening material is permitted on the side and rear windows (front door windows at no more than 65% light blockage).'"
+    },
+    {
+      "id": 43,
+      "question": "A license plate frame:",
+      "options": {
+        "a": "may cover the word Missouri on the plate",
+        "b": "should not cover any information on the license plate",
+        "c": "may cover the month and year registration stickers",
+        "d": "may cover the wording at the bottom of the plate"
+      },
+      "correct_answer": "b",
+      "explanation": "The Missouri Driver Guide states that 'Missouri law requires that license plates be securely fastened to a vehicle, and that all parts of the plates are visible and clean' and 'If you have frames around your license plates, the MSHP reminds you that the frames must not cover any part of the plates.'"
+    },
+    {
+      "id": 44,
+      "question": "When a person buys a vehicle, he or she must title the vehicle within:",
+      "options": {
+        "a": "30 days",
+        "b": "6 months",
+        "c": "1 week",
+        "d": "1 year"
+      },
+      "correct_answer": "a",
+      "explanation": "The Missouri Driver Guide clearly states: 'Whether you are a Missouri resident buying a new vehicle, or a new resident who recently moved to Missouri, you have 30 days to visit your local license office' and 'When you buy a vehicle, you must apply for a title within 30 days.'"
+    }
+  ]
+}
