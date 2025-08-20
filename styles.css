@@ -62,7 +62,7 @@ header h1 {
     to { opacity: 1; transform: translateY(0); }
 }
 
-.question-card, .result-card, .complete-card, .error-card {
+.question-card, .result-card, .complete-card, .error-card, .welcome-card {
     background: white;
     border-radius: 15px;
     padding: 2rem;

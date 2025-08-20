@@ -9,13 +9,19 @@ class FlashcardApp {
         this.selectedAnswer = null;
         
         this.initializeEventListeners();
-        this.loadFlashcardsJSON();
+        this.showScreen('welcome-screen');
     }
 
     initializeEventListeners() {
         document.getElementById('next-question').addEventListener('click', this.nextQuestion.bind(this));
         document.getElementById('restart').addEventListener('click', this.restart.bind(this));
         document.getElementById('try-sample').addEventListener('click', this.startWithSampleQuestions.bind(this));
+        document.getElementById('start-studying').addEventListener('click', this.startStudying.bind(this));
+    }
+
+    startStudying() {
+        this.showScreen('loading-screen');
+        this.loadFlashcardsJSON();
     }
 
     handleFileUpload(event) {
