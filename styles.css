@@ -29,6 +29,60 @@ header h1 {
     text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
+.audio-section {
+    margin: 1.5rem auto;
+    max-width: 600px;
+}
+
+.audio-player-container {
+    background: rgba(255,255,255,0.95);
+    border-radius: 12px;
+    padding: 0;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.audio-toggle {
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    font-weight: 600;
+    color: #2d3748;
+    font-size: 1.1rem;
+    list-style: none;
+    display: block;
+    transition: all 0.2s ease;
+}
+
+.audio-toggle:hover {
+    background: rgba(102, 126, 234, 0.1);
+    border-radius: 12px;
+}
+
+.audio-toggle::before {
+    content: '▶ ';
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+details[open] .audio-toggle::before {
+    transform: rotate(90deg);
+}
+
+.audio-content {
+    padding: 0 1.5rem 1.5rem;
+}
+
+.audio-content p {
+    margin-bottom: 1rem;
+    color: #4a5568;
+}
+
+.audio-iframe {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    background: #f7fafc;
+}
+
 .stats {
     display: flex;
     justify-content: center;
@@ -98,6 +152,11 @@ header h1 {
     cursor: pointer;
     transition: all 0.2s ease;
     font-size: 1rem;
+    outline: none;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
 }
 
 .option:hover {
