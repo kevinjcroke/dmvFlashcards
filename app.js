@@ -156,10 +156,10 @@ class FlashcardApp {
 
     selectAnswer(answer, optionElement) {
         if (this.selectedAnswer) return; // Prevent multiple selections
-        
+
         this.selectedAnswer = answer;
         const isCorrect = answer === this.currentQuestion.correct_answer;
-        
+
         // Update scores
         if (isCorrect) {
             this.questionScores[this.currentQuestion.id].correct++;
@@ -168,13 +168,19 @@ class FlashcardApp {
             this.questionScores[this.currentQuestion.id].incorrect++;
             this.totalIncorrect++;
         }
-        
+
         // Check if question is mastered (correct >= incorrect + 2)
         const score = this.questionScores[this.currentQuestion.id];
+        const wasNotMastered = !score.mastered;
         if (score.correct >= score.incorrect + 2) {
             score.mastered = true;
+
+            // Trigger celebration animation if newly mastered
+            if (wasNotMastered) {
+                this.triggerMasteredAnimation();
+            }
         }
-        
+
         // Show correct/incorrect styling
         const options = document.querySelectorAll('.option');
         options.forEach(option => {
@@ -186,11 +192,19 @@ class FlashcardApp {
                 option.classList.add('incorrect');
             }
         });
-        
+
         // Show result immediately on same screen
         this.showInlineResult(isCorrect);
         this.updateStats();
         this.saveProgress();
+    }
+
+    triggerMasteredAnimation() {
+        const questionCard = document.querySelector('.question-card');
+        questionCard.classList.add('mastered-animation');
+        setTimeout(() => {
+            questionCard.classList.remove('mastered-animation');
+        }, 800);
     }
 
     showInlineResult(isCorrect) {
@@ -237,6 +251,26 @@ class FlashcardApp {
         document.getElementById('questions-remaining').textContent = remaining;
         document.getElementById('correct-count').textContent = this.totalCorrect;
         document.getElementById('incorrect-count').textContent = this.totalIncorrect;
+        this.updateProgressBar();
+    }
+
+    updateProgressBar() {
+        const progressContainer = document.getElementById('progress-container');
+        const progressBarInner = document.getElementById('progress-bar-inner');
+        const progressText = document.getElementById('progress-text');
+
+        if (!this.questions || this.questions.length === 0) {
+            progressContainer.style.display = 'none';
+            return;
+        }
+
+        const totalQuestions = this.questions.length;
+        const masteredCount = Object.values(this.questionScores).filter(score => score.mastered).length;
+        const progressPercentage = (masteredCount / totalQuestions) * 100;
+
+        progressContainer.style.display = 'block';
+        progressBarInner.style.width = `${progressPercentage}%`;
+        progressText.textContent = `${masteredCount}/${totalQuestions} Mastered`;
     }
 
     showScreen(screenId) {
