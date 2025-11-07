@@ -230,15 +230,29 @@ details[open] .audio-toggle::before {
 .question-card, .result-card, .complete-card, .error-card, .welcome-card {
     background: white;
     border-radius: 20px;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 0 10px 30px rgba(0,0,0,0.2);
     margin: 0 auto;
     border: 2px solid transparent;
-    transition: border-color 0.3s ease, transform 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .question-card:hover {
     transform: translateY(-2px);
+}
+
+.question-card.compact {
+    padding: 1rem;
+}
+
+.question-card.compact .question-text {
+    font-size: 1rem;
+    margin-bottom: 0.75rem;
+}
+
+.question-card.compact .option {
+    padding: 0.5rem;
+    font-size: 0.9rem;
 }
 
 .question-card.mastered-animation {
@@ -257,32 +271,12 @@ details[open] .audio-toggle::before {
     }
 }
 
-.question-number {
-    color: #667eea;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    font-size: 0.85rem;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
-.question-number::before {
-    content: '';
-    display: inline-block;
-    width: 4px;
-    height: 16px;
-    background: #667eea;
-    border-radius: 2px;
-}
-
 .question-text {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 1.25rem;
     color: #2d3748;
+    transition: all 0.3s ease;
 }
 
 .options {

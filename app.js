@@ -107,6 +107,12 @@ class FlashcardApp {
     }
 
     startQuiz() {
+        // Hide audio section when quiz starts
+        const audioSection = document.querySelector('.audio-section');
+        if (audioSection) {
+            audioSection.style.display = 'none';
+        }
+
         this.showScreen('question-screen');
         this.updateStats();
         this.nextQuestion();
@@ -135,13 +141,16 @@ class FlashcardApp {
     }
 
     displayQuestion() {
-        document.getElementById('current-question-id').textContent = this.currentQuestion.id;
         document.getElementById('question-text').textContent = this.currentQuestion.question;
-        
+
+        // Remove compact class for new question
+        const questionCard = document.querySelector('.question-card');
+        questionCard.classList.remove('compact');
+
         // Hide result elements for new question
         document.getElementById('inline-result').style.display = 'none';
         document.getElementById('next-question').style.display = 'none';
-        
+
         const optionsContainer = document.getElementById('options');
         optionsContainer.innerHTML = '';
         
@@ -208,12 +217,16 @@ class FlashcardApp {
     }
 
     showInlineResult(isCorrect) {
+        // Make question more compact after answering
+        const questionCard = document.querySelector('.question-card');
+        questionCard.classList.add('compact');
+
         const resultContainer = document.getElementById('inline-result');
         const resultStatus = document.getElementById('inline-result-status');
         const resultExplanation = document.getElementById('inline-result-explanation');
         const questionScoreDisplay = document.getElementById('inline-question-score');
         const nextButton = document.getElementById('next-question');
-        
+
         resultStatus.textContent = isCorrect ? '✅ Correct!' : '❌ Incorrect';
         resultStatus.className = `result-status ${isCorrect ? 'correct' : 'incorrect'}`;
         
